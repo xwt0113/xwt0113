@@ -143,3 +143,4 @@ def write_CSV(url, PageStart, PageEnd, City, FileName):                         
     print(f'共花费时间   {endtime - startime}')
     print('')
     print('')
+write_CSV(r'https://bj.lianjia.com/xiaoqu/', 1, 20, '北京', '北京房价')
